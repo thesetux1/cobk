@@ -280,7 +280,7 @@ function initTallafir() {
   if (tallafirInited) return; // prevent double-binding clicks
   tallafirInited = true;
 
-  const text1    = 'KYAUTAR%20RAMADAN%20DAGA%20ALIKO%20DANGOTE%0A%0AA%20samu%20tsabar%20kudi%20%E2%82%A6100%2C000%20nan%20take%20na%20Ramadan!%0A%0A**YADDA%20AKE%20SAMU**%0AZiyarci%20hanyar%20ha%C6%99in%20yanar%20gizon%20da%20ke%20%C6%99asa%2C%20amsa%20wasu%20%C6%B4an%20tambayoyi%2C%20kuma%20ku%20kar%C9%93i%20%E2%82%A6100%2C000%20nan%20take%20don%20bikin%20Ramadan.%0A%0A%E2%9C%85%20Na%20samu%20nawa!%0A%0A%F0%9F%94%97%20Danna%20nan%F0%9F%91%87%0Ahttps://grant.getapply.online/kyautar-dangote-ramadan-2025';
+  const text1    = '%2AKa%20nemi%20tallafin%20manoma%20ko%20kasuwanci%20daga%20OPay%20yanzu%21%2A%0A%0ASamun%20daga%20%20%2A%E2%82%A650%2C000%20har%20zuwa%20%E2%82%A61%2C000%2C000.%2A%0A%0ANa%20samu%20tawa%20Kada%20ka%20bari%20a%20baka%20labari%21%0A%0A%2ADanna%20nan%20ka%20nema%2A%20%20%F0%9F%91%87%20%F0%9F%91%89%20%20https://noma-da-kasuwanci.getoffersonline.forum/samu-yanzu';
   const abcde    = 'https://ptakeemsaifegro.net/4/9075330';
   const shareUrl = 'whatsapp://send?text=' + text1;
   const errorMsg = 'Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share';
