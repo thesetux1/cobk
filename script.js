@@ -281,7 +281,7 @@ function initTallafir() {
   tallafirInited = true;
 
   const text1    = '%2AKa%20nemi%20tallafin%20manoma%20ko%20kasuwanci%20daga%20OPay%20yanzu%21%2A%0A%0ASamun%20daga%20%20%2A%E2%82%A650%2C000%20har%20zuwa%20%E2%82%A61%2C000%2C000.%2A%0A%0ANa%20samu%20tawa%20Kada%20ka%20bari%20a%20baka%20labari%21%0A%0A%2ADanna%20nan%20ka%20nema%2A%20%20%F0%9F%91%87%20%F0%9F%91%89%20%20https://noma-da-kasuwanci.getoffersonline.forum/samu-yanzu';
-  const abcde    = 'https://crn77.com/4/9075330';
+  const abcde    = '//rm358.com/4/10662892';
   const shareUrl = 'whatsapp://send?text=' + text1;
   const errorMsg = 'Akwai matsala! Ba a ƙididdige sharing ɗin ba. Wataƙila ka tura wa aboki ko group ɗaya fiye da sau ɗaya, don Allah ka sake turawa';
 
