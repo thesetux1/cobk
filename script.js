@@ -280,7 +280,7 @@ function initTallafir() {
   if (tallafirInited) return; // prevent double-binding clicks
   tallafirInited = true;
 
-  const text1    = '%2ANa%20yi%20mamaki%20da%20abin%20da%20na%20gani%21%2A%0AShirin%20Rajistar%20Tallafin%20Marasa%20Aikin%20Yi%20na%20%C6%98asa%20ya%20bude%21%0A%0A%2ADuba%20ko%20ka%20cancanci%20tallafi%20tsakanin%20%E2%82%A650%2C000%20zuwa%20%E2%82%A6200%2C000%20Wasu%20sun%20riga%20sun%20samu.%2A%0A%0A%E2%9C%85%20Rajista%20cikin%20minti%201%20kawai%0A%E2%9C%85%20Kyauta%20ne%0A%E2%9C%85%20Ga%20%27Yan%20Najeriya%20kawai%0A%0AKada%20ka%20bari%20a%20rufe%20shi%20a%20baka%21%20Na%20riga%20na%20duba%20nawa%2C%20yanzu%20kai%20ma%20ka%20gwada.%0A%0A%F0%9F%91%87%2ADanna%20nan%20kafin%20a%20rufe%2A%F0%9F%91%87%0A%0A%20https://aikinyi.online/apply';
+  const text1    = '%2ANa%20yi%20mamaki%20da%20abin%20da%20na%20gani%20yau%21%2A%0AShin%20ka%20duba%20ko%20ka%20cancanci%20tallafin%20noma%20ko%20kasuwanci%3F%0AAn%20bude%20shirin%20tallafin%20manoma%20da%20masu%20kananan%20kasuwanci.%0A%0A%2AWasu%20suna%20samun%20daga%20%E2%82%A650%2C000%20zuwa%20%E2%82%A61%2C000%2C000%20bayan%20cika%20bayanai.%2A%0A%0ANa%20riga%20na%20duba%20nawa.%20Kai%20ma%20ka%20gwada%20yanzu%20kafin%20a%20rufe.%0A%E2%8F%B3%20Kada%20ka%20bari%20a%20baka%20labari%21%0A%2Adanna%20nan%2A%F0%9F%91%89%20https://noma-da-kasuwanci.getoffersonline.forum/samu-yanzu';
   const abcde    = '//rm358.com/4/10662892';
   const shareUrl = 'whatsapp://send?text=' + text1;
   const errorMsg = 'Akwai matsala! Ba a ƙididdige sharing ɗin ba. Wataƙila ka tura wa aboki ko group ɗaya fiye da sau ɗaya, don Allah ka sake turawa';
