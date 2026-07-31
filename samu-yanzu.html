@@ -54,7 +54,37 @@ setInterval(updateCountdown, 1000);
     <p class="quiz-welcome-tag">🎉Barka da zuwa Shirin Tallafin Manoma da Tallafin Kasuwanci </p>
     <h1 class="quiz-welcome-title">An Zaɓe Ka!</h1>
     <p class="quiz-welcome-sub">Amsa tambayoyi 3 cikin sauri don samun damar lashe ɗaya daga cikin waɗannan kyaututtuka masu ban mamaki.</p>
+<div style="background:#d90429;color:#fff;padding:8px 12px;font:600 13px Arial,sans-serif;text-align:center;">
+📢 <b>Rajista na Rufewa Nan Ba Da Jimawa Ba!</b><br>
+Yi rajista yanzu kafin lokaci ya ƙare.
+<br>
+⏳ <span id="countdown"></span>
+</div>
 
+<script>
+const endDate = new Date("August 30, 2026 23:59:59").getTime();
+
+function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = endDate - now;
+
+    if (distance <= 0) {
+        document.getElementById("countdown").innerHTML = "⛔ Lokacin rajista ya ƙare.";
+        return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+        `${days} Kwana ${hours} Sa'a ${minutes} Minti ${seconds} Dakika`;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+</script>
     <!-- Prize carousel -->
     <div class="prize-carousel">
       <div class="prize-carousel-track">
